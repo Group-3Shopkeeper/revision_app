@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1082184928156",
+    "project_id": "hardwaremart-ba4a5",
+    "storage_bucket": "hardwaremart-ba4a5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1082184928156:android:f6bc47386ae1aa1f79d659",
+        "android_client_info": {
+          "package_name": "com.example.hardwaremart"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1082184928156-1kmjo7h9q64v91m7efs3vj2msuivfhs5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.hardwaremart",
+            "certificate_hash": "fb1b93bdbaf80011e43872e1431a96cea0dfeab6"
+          }
+        },
+        {
+          "client_id": "1082184928156-qjf051b3hbor7qmpsrcb11k2qernpfh9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCL2TqFX6svHtait1847FVaSXpd_hkUtfc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1082184928156-qjf051b3hbor7qmpsrcb11k2qernpfh9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

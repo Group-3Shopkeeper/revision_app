@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     android:layout_width="match_parent"
+     android:gravity="center"
+     android:layout_height="match_parent">
+   <de.hdodenhof.circleimageview.CircleImageView
+       android:layout_width="wrap_content"
+       android:layout_height="200dp"
+       android:src="@drawable/store"
+       android:layout_centerHorizontal="true"
+       android:layout_marginTop="30dp"
+       android:id="@+id/ivStore"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:id="@+id/etOwnerName"
+        android:layout_below="@+id/ivStore"
+        android:hint="Owner Name"
+        android:layout_marginTop="10dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:id="@+id/etShopName"
+        android:layout_below="@+id/etOwnerName"
+        android:hint="Shop name"
+        android:layout_marginTop="10dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:id="@+id/etContactNumber"
+        android:layout_below="@+id/etShopName"
+        android:hint="Contact number"
+        android:layout_marginTop="10dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:id="@+id/etAddress"
+        android:layout_below="@+id/etContactNumber"
+        android:hint="Shop address"
+        android:lines="3"
+        android:layout_marginTop="10dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:id="@+id/etEmail"
+        android:layout_below="@+id/etAddress"
+        android:hint="Email"
+        android:layout_marginTop="10dp"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_below="@+id/etAddress"
+        android:text="Save"
+        android:id="@+id/btnSave"
+        android:layout_marginTop="10dp"/>
+</RelativeLayout>
+</ScrollView>
